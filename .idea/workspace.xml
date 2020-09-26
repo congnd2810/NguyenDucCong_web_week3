@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -23,6 +24,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -48,7 +50,11 @@
       <workItem from="1600796799590" duration="3496000" />
       <workItem from="1600834243247" duration="1009000" />
       <workItem from="1600861169315" duration="629000" />
-      <workItem from="1600885412752" duration="4540000" />
+      <workItem from="1600885412752" duration="4999000" />
+      <workItem from="1601011444379" duration="16000" />
+      <workItem from="1601095167632" duration="1405000" />
+      <workItem from="1601114365207" duration="622000" />
+      <workItem from="1601139274106" duration="2473000" />
     </task>
     <servers />
   </component>
@@ -60,6 +66,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1600797410569" />
+    <state width="1896" height="347" key="GridCell.Tab.0.bottom" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.0.center" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.0.left" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.0.right" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.1.bottom" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.1.center" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.1.left" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.1.right" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.2.bottom" timestamp="1600936085848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085848" />
+    <state width="1896" height="347" key="GridCell.Tab.2.center" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.2.left" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.2.right" timestamp="1600936085847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085847" />
+    <state width="1896" height="347" key="GridCell.Tab.3.bottom" timestamp="1600936085848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085848" />
+    <state width="1896" height="347" key="GridCell.Tab.3.center" timestamp="1600936085848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085848" />
+    <state width="1896" height="347" key="GridCell.Tab.3.left" timestamp="1600936085848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085848" />
+    <state width="1896" height="347" key="GridCell.Tab.3.right" timestamp="1600936085848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1896" height="347" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600936085848" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1600797884989">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
