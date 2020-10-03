@@ -4,32 +4,56 @@
     <meta charset="UTF-8">
     <title>Web development</title>
     <style>
-        .listTag {
-            display: block;
-            color: #000;
-            padding: 8px 16px;
-            text-decoration: none;
+        .topnavbar {
+            background-color: #333;
+            height: 50px;
+            top: 0;
+            width: 100%;
+            left: 0;
         }
 
-        .listTag:active {
-            display: block;
-            color: white;
-            padding: 8px 16px;
-            text-decoration: none;
+        .btn {
             background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
         }
 
-        .listTag .tag1 {
+        .ulli {
+            display: none;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 300px;
+            background-color: #f1f1f1;
+            height: 100%;
+            overflow: auto;
+        }
+
+        .list:hover .btn {
+            background-color: aqua;
+        }
+
+        .list:hover .ulli {
             display: block;
-            color: white;
-            padding: 8px 16px;
-            text-decoration: none;
-            background-color: #4CAF50;
+        }
+
+        .list {
+            width: auto;
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            align-items: stretch;
+            flex-wrap: wrap;
         }
     </style>
 </head>
 <body>
-<div class="topnavbar" style="background-color: #333; height: 50px; top: 0; width: 100%; position: fixed; left: 0;">
+<div class="topnavbar">
     <a href="html.html"
        style="float: right; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; border: 1px solid aquamarine">html</a>
     <a href="../css/css.html"
@@ -37,19 +61,20 @@
     <a href="../javascript/javascript.html"
        style="float: right; display: block; color: #f2f2f2; text-align: center; padding: 14px 16px; text-decoration: none; border: 1px solid aquamarine">javascript</a>
 </div>
-<div class="list" style="top: 50px; width: 300px; position: fixed; height: 100%; left: 0;">
-    <ul style="list-style-type: none; margin: 0; padding: 0; width: 300px; background-color: #f1f1f1; height: 100%; position: fixed; overflow: auto;">
-        <li class="listTag"><a class="tag1" href="headings.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Headings</a></li>
-        <li class="listTag"><a class="tag2" href="paragraphs.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Paragraphs</a></li>
-        <li class="listTag"><a class="tag3" href="links.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Links</a></li>
-        <li class="listTag"><a class="tag4" href="images.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Images</a></li>
-        <li class="listTag"><a class="tag5" href="lists.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Lists</a></li>
-        <li class="listTag"><a class="tag6" href="tables.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Tables</a></li>
-        <li class="listTag"><a class="tag7" href="forms.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Forms</a></li>
+<div class="list">
+    <button class="btn">Click me!!!</button>
+    <ul class="ulli" >
+        <li class="listTag"><a class="tag" href="headings.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Headings</a></li>
+        <li class="listTag"><a class="tag" href="paragraphs.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Paragraphs</a></li>
+        <li class="listTag"><a class="tag" href="links.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Links</a></li>
+        <li class="listTag"><a class="tag" href="images.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Images</a></li>
+        <li class="listTag"><a class="tag" href="lists.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Lists</a></li>
+        <li class="listTag"><a class="tag" href="tables.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Tables</a></li>
+        <li class="listTag"><a class="tag" href="forms.html" style="display: block; color: #000; padding: 8px 16px; text-decoration: none">Forms</a></li>
     </ul>
 </div>
 <br>
-<div name="content" style="margin-left: 300px; padding: 20px; margin-top: 50px;">
+<div name="content" style="padding: 10px">
     <h2>HTML >> Heading</h2>
     <p>This is html heading.</p>
 </div>
